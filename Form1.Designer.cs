@@ -77,6 +77,7 @@
             this.btnNewNumbers.TabIndex = 2;
             this.btnNewNumbers.Text = "New list";
             this.btnNewNumbers.UseVisualStyleBackColor = true;
+            this.btnNewNumbers.Click += new System.EventHandler(this.btnNewNumbers_Click);
             // 
             // btnSortNumbers
             // 
@@ -87,6 +88,7 @@
             this.btnSortNumbers.TabIndex = 3;
             this.btnSortNumbers.Text = "Sort";
             this.btnSortNumbers.UseVisualStyleBackColor = true;
+            this.btnSortNumbers.Click += new System.EventHandler(this.btnSortNumbers_Click);
             // 
             // btnNewHeroes
             // 
@@ -97,6 +99,7 @@
             this.btnNewHeroes.TabIndex = 4;
             this.btnNewHeroes.Text = "New list";
             this.btnNewHeroes.UseVisualStyleBackColor = true;
+            this.btnNewHeroes.Click += new System.EventHandler(this.btnNewHeroes_Click);
             // 
             // btnSortHeroes
             // 
@@ -107,6 +110,7 @@
             this.btnSortHeroes.TabIndex = 5;
             this.btnSortHeroes.Text = "Sort";
             this.btnSortHeroes.UseVisualStyleBackColor = true;
+            this.btnSortHeroes.Click += new System.EventHandler(this.btnSortHeroes_Click);
             // 
             // lstNumbers
             // 
@@ -146,6 +150,7 @@
             this.btnRemoveNumber.TabIndex = 9;
             this.btnRemoveNumber.Text = "Remove";
             this.btnRemoveNumber.UseVisualStyleBackColor = true;
+            this.btnRemoveNumber.Click += new System.EventHandler(this.btnRemoveNumber_Click);
             // 
             // btnRemoveAllNumbers
             // 
