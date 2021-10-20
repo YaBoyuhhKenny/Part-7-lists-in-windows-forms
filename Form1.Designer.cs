@@ -160,6 +160,7 @@
             this.btnRemoveAllNumbers.TabIndex = 10;
             this.btnRemoveAllNumbers.Text = "Remove all";
             this.btnRemoveAllNumbers.UseVisualStyleBackColor = true;
+            this.btnRemoveAllNumbers.Click += new System.EventHandler(this.btnRemoveAllNumbers_Click);
             // 
             // lblInstructions1
             // 
@@ -190,6 +191,7 @@
             this.btnAddHero.TabIndex = 13;
             this.btnAddHero.Text = "Add";
             this.btnAddHero.UseVisualStyleBackColor = true;
+            this.btnAddHero.Click += new System.EventHandler(this.btnAddHero_Click);
             // 
             // txtAddHero
             // 
@@ -214,6 +216,7 @@
             this.btnRemoveHero.TabIndex = 16;
             this.btnRemoveHero.Text = "Remove";
             this.btnRemoveHero.UseVisualStyleBackColor = true;
+            this.btnRemoveHero.Click += new System.EventHandler(this.btnRemoveHero_Click);
             // 
             // lblInstructions3
             // 
@@ -250,6 +253,7 @@
             this.Controls.Add(this.lblName1);
             this.Name = "Form1";
             this.Text = "Using lists";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -27,9 +27,6 @@ namespace Part_7_lists_in_windows_forms
 
             lstNumbers.DataSource = numbers;
 
-            heroes.Add("Superman");
-            heroes.Add("Batman");
-            lstHeroes.DataSource = heroes;
         }
 
         private void btnSortNumbers_Click(object sender, EventArgs e)
@@ -67,8 +64,8 @@ namespace Part_7_lists_in_windows_forms
             heroes.Clear();
             lstHeroes.DataSource = null;
 
-            heroes.Add("Superman");
-            heroes.Add("Batman");
+            heroes.Add("SUPERMAN");
+            heroes.Add("BATMAN");
 
             lstHeroes.DataSource = heroes;
 
@@ -84,6 +81,55 @@ namespace Part_7_lists_in_windows_forms
                 lstNumbers.DataSource = null;
                 lstNumbers.DataSource = numbers;
             }    
+        }
+
+        private void btnRemoveAllNumbers_Click(object sender, EventArgs e)
+        {
+            numbers.Clear();
+
+            lstNumbers.DataSource = null;
+            lstNumbers.DataSource = numbers;
+
+            lblStatus.Text = $"Status: all numbers cleared";
+
+        }
+
+        private void btnRemoveHero_Click(object sender, EventArgs e)
+        {
+            if (heroes.Remove(txtRemoveHero.Text.ToUpper().Trim()))
+            {
+                lblStatus.Text = $"Status: removed {txtRemoveHero.Text.ToUpper().Trim()}";
+            }
+
+            else
+            {
+                lblStatus.Text = $"Status: {txtRemoveHero.Text.ToUpper().Trim()} isnt in the list";
+            }
+            
+            lstHeroes.DataSource = null;
+            lstHeroes.DataSource = heroes;
+            
+        }
+
+        private void btnAddHero_Click(object sender, EventArgs e)
+        {            
+            if (txtAddHero.Text.Trim() != "")
+            {
+                heroes.Add(txtAddHero.Text.ToUpper().Trim());
+                lstHeroes.DataSource = null;
+                lstHeroes.DataSource = heroes;
+                lblStatus.Text = $"Status: added {txtAddHero.Text.ToUpper().Trim()}";
+            }
+            
+            else
+            {
+                lblStatus.Text = "Status: no hero name entered";
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
