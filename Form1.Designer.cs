@@ -52,6 +52,7 @@
             // 
             this.lblName1.AutoSize = true;
             this.lblName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblName1.Location = new System.Drawing.Point(62, 60);
             this.lblName1.Name = "lblName1";
             this.lblName1.Size = new System.Drawing.Size(76, 18);
@@ -62,6 +63,7 @@
             // 
             this.lblName2.AutoSize = true;
             this.lblName2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.lblName2.Location = new System.Drawing.Point(321, 60);
             this.lblName2.Name = "lblName2";
             this.lblName2.Size = new System.Drawing.Size(63, 18);
@@ -71,6 +73,7 @@
             // btnNewNumbers
             // 
             this.btnNewNumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewNumbers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnNewNumbers.Location = new System.Drawing.Point(65, 82);
             this.btnNewNumbers.Name = "btnNewNumbers";
             this.btnNewNumbers.Size = new System.Drawing.Size(88, 27);
@@ -82,6 +85,7 @@
             // btnSortNumbers
             // 
             this.btnSortNumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSortNumbers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnSortNumbers.Location = new System.Drawing.Point(159, 82);
             this.btnSortNumbers.Name = "btnSortNumbers";
             this.btnSortNumbers.Size = new System.Drawing.Size(87, 27);
@@ -93,6 +97,7 @@
             // btnNewHeroes
             // 
             this.btnNewHeroes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewHeroes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnNewHeroes.Location = new System.Drawing.Point(324, 82);
             this.btnNewHeroes.Name = "btnNewHeroes";
             this.btnNewHeroes.Size = new System.Drawing.Size(88, 27);
@@ -104,6 +109,7 @@
             // btnSortHeroes
             // 
             this.btnSortHeroes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSortHeroes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnSortHeroes.Location = new System.Drawing.Point(418, 82);
             this.btnSortHeroes.Name = "btnSortHeroes";
             this.btnSortHeroes.Size = new System.Drawing.Size(88, 27);
@@ -115,6 +121,7 @@
             // lstNumbers
             // 
             this.lstNumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstNumbers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lstNumbers.FormattingEnabled = true;
             this.lstNumbers.ItemHeight = 15;
             this.lstNumbers.Location = new System.Drawing.Point(65, 114);
@@ -125,6 +132,7 @@
             // lstHeroes
             // 
             this.lstHeroes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstHeroes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.lstHeroes.FormattingEnabled = true;
             this.lstHeroes.ItemHeight = 15;
             this.lstHeroes.Location = new System.Drawing.Point(324, 114);
@@ -136,6 +144,7 @@
             // 
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblStatus.Location = new System.Drawing.Point(12, 320);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(48, 16);
@@ -144,6 +153,7 @@
             // 
             // btnRemoveNumber
             // 
+            this.btnRemoveNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnRemoveNumber.Location = new System.Drawing.Point(64, 245);
             this.btnRemoveNumber.Name = "btnRemoveNumber";
             this.btnRemoveNumber.Size = new System.Drawing.Size(89, 27);
@@ -154,6 +164,7 @@
             // 
             // btnRemoveAllNumbers
             // 
+            this.btnRemoveAllNumbers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnRemoveAllNumbers.Location = new System.Drawing.Point(159, 245);
             this.btnRemoveAllNumbers.Name = "btnRemoveAllNumbers";
             this.btnRemoveAllNumbers.Size = new System.Drawing.Size(89, 27);
@@ -166,6 +177,7 @@
             // 
             this.lblInstructions1.AutoSize = true;
             this.lblInstructions1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstructions1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblInstructions1.Location = new System.Drawing.Point(62, 226);
             this.lblInstructions1.Name = "lblInstructions1";
             this.lblInstructions1.Size = new System.Drawing.Size(193, 16);
@@ -176,6 +188,7 @@
             // 
             this.lblInstructions2.AutoSize = true;
             this.lblInstructions2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstructions2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.lblInstructions2.Location = new System.Drawing.Point(324, 228);
             this.lblInstructions2.Name = "lblInstructions2";
             this.lblInstructions2.Size = new System.Drawing.Size(182, 16);
@@ -185,6 +198,7 @@
             // btnAddHero
             // 
             this.btnAddHero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddHero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnAddHero.Location = new System.Drawing.Point(453, 245);
             this.btnAddHero.Name = "btnAddHero";
             this.btnAddHero.Size = new System.Drawing.Size(53, 27);
@@ -195,6 +209,7 @@
             // 
             // txtAddHero
             // 
+            this.txtAddHero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txtAddHero.Location = new System.Drawing.Point(324, 247);
             this.txtAddHero.Name = "txtAddHero";
             this.txtAddHero.Size = new System.Drawing.Size(123, 20);
@@ -202,6 +217,7 @@
             // 
             // txtRemoveHero
             // 
+            this.txtRemoveHero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txtRemoveHero.Location = new System.Drawing.Point(324, 294);
             this.txtRemoveHero.Name = "txtRemoveHero";
             this.txtRemoveHero.Size = new System.Drawing.Size(123, 20);
@@ -210,6 +226,7 @@
             // btnRemoveHero
             // 
             this.btnRemoveHero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRemoveHero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnRemoveHero.Location = new System.Drawing.Point(453, 294);
             this.btnRemoveHero.Name = "btnRemoveHero";
             this.btnRemoveHero.Size = new System.Drawing.Size(69, 29);
@@ -222,6 +239,7 @@
             // 
             this.lblInstructions3.AutoSize = true;
             this.lblInstructions3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstructions3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.lblInstructions3.Location = new System.Drawing.Point(324, 275);
             this.lblInstructions3.Name = "lblInstructions3";
             this.lblInstructions3.Size = new System.Drawing.Size(207, 16);
@@ -232,6 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(568, 354);
             this.Controls.Add(this.txtRemoveHero);
             this.Controls.Add(this.btnRemoveHero);
